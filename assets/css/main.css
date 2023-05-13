@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #ed5379;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -577,6 +577,15 @@ h6 {
 --------------------------------------------------------------*/
 .gallery {
   margin-top: 40px;
+}
+
+.gallery .RedirectLink{
+  color: #000;
+  transition: 0.3s;
+  text-align: center;
+}
+.gallery .RedirectLink:hover{
+  color: #2cbc85;
 }
 
 .gallery .gallery-item {
